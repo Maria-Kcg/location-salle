@@ -5,7 +5,7 @@ const StatCards = () => {
         { title: "En Attente", stat: 10, icon: CalendarClock, color: "text-orange-400" },
         { title: "Confirmées", stat: 10, icon: CalendarCheck2, color: "text-green-600" },
         { title: "Annulées", stat: 10, icon: CalendarX2, color: "text-red-600" },
-        { title: "Passées", stat: 10, icon: CalendarCheck2, color: "text-green-600" },
+        { title: "Passées", stat: 10, icon: CalendarCheck2, color: "text-slate-600" },
     ]
 
     return (

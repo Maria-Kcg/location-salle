@@ -11,7 +11,7 @@ const SideBar = () => {
 
   return (
     <>
-      <div className="max-w-60 h-screen bg-white">
+      <div className="max-w-60 h-full bg-white min-h-screen">
         {/*Header */}
         <div className="bg-[#1E3A8A] p-3 h-12">
           <Menu color={"#ffffff"} />

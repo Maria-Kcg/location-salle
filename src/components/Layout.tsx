@@ -10,6 +10,7 @@ const Layout = () => {
                     <SideBar />
                 </aside>
                 <div className="flex-1">
+                   {/**
                     <header>
                         <div className="bg-white h-12 flex justify-end pr-12">
                             <div className="flex items-center gap-4">
@@ -21,6 +22,7 @@ const Layout = () => {
                             </div>
                         </div>
                     </header>
+                    */} 
                     <main>
                         <Outlet />
                     </main>
