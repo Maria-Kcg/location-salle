@@ -71,18 +71,18 @@ const Reservations = () => {
                 <div className="bg-white rounded-lg p-10">
                     <div className="flex gap-5">
                         <p className="text-lg font-medium">Filtres</p>
-                        <div className="flex flex-wrap mb-4 gap-10 items-center">
+                        <div className="flex flex-wrap mb-4 gap-5 mb:gap-10 items-center justify-center">
                             <input type="text" placeholder="Filtrer par nom" value={filterName} onChange={(e) => setFilterName(e.target.value)}
-                                className="border rounded px-2 py-1"
+                                className="border border-[#1E3A8A] rounded px-2 py-1"
                             />
                             <input type="date" value={filterDate} onChange={(e) => setFilterDate(e.target.value)}
-                                className="border rounded px-2 py-1"
+                                className="border border-[#1E3A8A] rounded px-2 py-1"
                             />
                             <input type="time" value={filterHour} onChange={(e) => setFilterHour(e.target.value)}
-                                className="border rounded px-2 py-1"
+                                className="border border-[#1E3A8A] rounded px-2 py-1"
                             />
                             <select value={filterStatus} onChange={(e) => setFilterStatus(e.target.value)}
-                                className="border rounded px-2 py-1"   >
+                                className="border border-[#1E3A8A] rounded px-2 py-1"   >
                                 <option value="">Tous les statuts</option>
                                 <option value="Confirmée">Confirmée</option>
                                 <option value="Annulée">Annulée</option>

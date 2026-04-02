@@ -3,7 +3,7 @@ import StatCards from "../components/StatCards";
 import DashboardReservationsCard from "../components/DashboardReservationsCard";
 import { useNavigate } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import CalendarCard from "@/components/CalendarCard";
+import DashboardCalendarCard from "@/components/DashboardCalendarCard";
 
 const Dashboard = () => {
     const navigate = useNavigate();
@@ -49,7 +49,7 @@ const Dashboard = () => {
                                 <p>Voir les disponibilités</p>
                                 <ArrowRight size={16} />
                             </Button>
-                            <CalendarCard />
+                            <DashboardCalendarCard />
                         </div>
                         <div>
                             <Button onClick={() => navigate("/admin/reservations")}
